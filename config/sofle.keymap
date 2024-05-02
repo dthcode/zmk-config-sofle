@@ -129,7 +129,7 @@
 
         no_thumb {
             bindings = <
-&kp ESCAPE     &trans              &trans              &trans           &trans                &trans                                     &trans               &trans                 &trans                   &trans               &trans                       &tog 5
+&kp ESCAPE     &none               &none               &none            &none                 &none                                      &none                &none                  &none                    &none                &none                        &tog 5
 &kp ENTER      &kp N1              &kp N2              &kp N3           &kp N4                &kp N5                                     &kp N6               &kp N7                 &kp N8                   &kp N9               &kp N0                       &kp MINUS
 &kp BACKSPACE  &kp Q               &kp W               &kp E            &kp R                 &kp T                                      &kp Y                &kp U                  &kp I                    &kp O                &kp P                        &kp LBKT
 &kp Z          &hr_mod LEFT_GUI A  &hr_mod LEFT_ALT S  &hr_mod LCTRL D  &hr_mod LEFT_SHIFT F  &hr_mod LEFT_GUI G  &none        &none     &hr_mod RIGHT_GUI H  &hr_mod RIGHT_SHIFT J  &hr_mod RIGHT_CONTROL K  &hr_mod RIGHT_ALT L  &hr_mod RIGHT_GUI SEMICOLON  &kp APOS
