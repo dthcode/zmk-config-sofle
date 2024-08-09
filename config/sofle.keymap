@@ -47,11 +47,11 @@
 
         home_row_mod {
             bindings = <
-&kp ESCAPE          &kp N1              &kp N2              &kp N3           &kp N4                &kp N5                                            &kp N6               &kp N7                 &kp N8                   &kp N9               &kp N0                       &kp MINUS
-&kp ENTER           &kp Q               &kp W               &kp E            &kp R                 &kp T                                             &kp Y                &kp U                  &kp I                    &kp O                &kp P                        &kp LBKT
-&mt LEFT_SHIFT TAB  &hr_mod LEFT_GUI A  &hr_mod LEFT_ALT S  &hr_mod LCTRL D  &hr_mod LEFT_SHIFT F  &hr_mod LEFT_GUI G                                &hr_mod RIGHT_GUI H  &hr_mod RIGHT_SHIFT J  &hr_mod RIGHT_CONTROL K  &hr_mod RIGHT_ALT L  &hr_mod RIGHT_GUI SEMICOLON  &hr_mod RIGHT_SHIFT SQT
-&mt LCTRL F17       &kp Z               &kp X               &kp C            &kp V                 &kp B               &kp C_MUTE         &none      &kp N                &kp M                  &kp COMMA                &kp DOT              &kp FSLH                     &kp ENTER
-                                        &mt LEFT_ALT F18    &kp LEFT_GUI     &kp SPACE             &lt 1 BACKSPACE     &lt 2 BACKSPACE    &kp ENTER  &mo 2                &lt 3 SPACE            &kp RIGHT_GUI            &mt RIGHT_ALT F18
+&lt 3 ESCAPE        &kp N1  &kp N2            &kp N3              &kp N4                &kp N5                                            &kp N6               &kp N7                 &kp N8                   &kp N9               &kp N0         &kp MINUS
+&kp ENTER           &kp Q   &kp W             &kp E               &kp R                 &kp T                                             &kp Y                &kp U                  &kp I                    &kp O                &kp P          &kp LBKT
+&mt LEFT_SHIFT TAB  &kp A   &kp S             &kp D               &hr_mod LEFT_SHIFT F  &hr_mod LEFT_GUI G                                &hr_mod RIGHT_GUI H  &hr_mod RIGHT_SHIFT J  &hr_mod RIGHT_CONTROL K  &hr_mod RIGHT_ALT L  &kp SEMICOLON  &hr_mod RIGHT_SHIFT SQT
+&mt LCTRL F17       &kp Z   &kp X             &hr_mod LEFT_GUI C  &hr_mod LEFT_GUI V    &kp B               &kp C_MUTE         &none      &kp N                &kp M                  &kp COMMA                &kp DOT              &kp FSLH       &kp ENTER
+                            &mt LEFT_ALT F18  &kp LEFT_GUI        &kp SPACE             &lt 1 BACKSPACE     &lt 2 BACKSPACE    &kp ENTER  &mo 2                &kp SPACE              &kp RIGHT_GUI            &mt RIGHT_ALT F18
             >;
         };
 
@@ -96,11 +96,11 @@
 
         adjust {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &none  &none  &none  &none  &none  &none
-&none       &none         &none         &none         &none         &none                         &none  &none  &none  &none  &none  &none
-&none       &tog 0        &tog 0        &none         &none         &none                         &none  &none  &none  &none  &none  &none
-&none       &none         &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
-                          &none         &none         &none         &none         &none    &none  &none  &none  &none  &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &none  &none  &none  &none  &none  &none
+&none  &none         &none         &none         &bt BT_CLR    &none                         &none  &none  &none  &none  &none  &none
+&none  &none         &none         &none         &none         &none                         &none  &none  &none  &none  &none  &none
+&none  &none         &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
+                     &none         &none         &none         &none         &none    &none  &none  &none  &none  &none
             >;
         };
 
