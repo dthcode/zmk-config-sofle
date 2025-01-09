@@ -47,22 +47,22 @@
 
         PrevLanguage1 {
             bindings = <&kp F17>;
-            key-positions = <15 16>;
+            key-positions = <3 4>;
         };
 
         PrevLanguage2 {
             bindings = <&kp F17>;
-            key-positions = <19 20>;
+            key-positions = <7 8>;
         };
 
         NextLanguage1 {
             bindings = <&kp F18>;
-            key-positions = <15 14>;
+            key-positions = <2 3>;
         };
 
         NextLanguage2 {
             bindings = <&kp F18>;
-            key-positions = <21 20>;
+            key-positions = <8 9>;
         };
     };
 
