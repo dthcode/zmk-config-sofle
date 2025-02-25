@@ -75,7 +75,7 @@
 &kp ENTER           &kp Q                      &kp W                  &autoshift LEFT_PARENTHESIS E  &autoshift RIGHT_PARENTHESIS R  &kp T                                                   &autoshift LEFT_BRACKET Y  &autoshift RIGHT_BRACKET U  &autoshift LEFT_BRACE I     &autoshift RIGHT_BRACE O        &kp P                            &autoshift RIGHT_BRACKET LEFT_BRACKET
 &mt LEFT_SHIFT TAB  &kp A                      &hr_mod LEFT_ALT S     &hr_mod LEFT_CONTROL D         &hr_mod LEFT_SHIFT F            &hr_mod LEFT_GUI G                                      &hr_mod RIGHT_GUI H        &hr_mod RIGHT_SHIFT J       &hr_mod RIGHT_CONTROL K     &hr_mod RIGHT_ALT L             &autoshift COLON SEMICOLON       &autoshift DOUBLE_QUOTES SQT
 &kp LCTRL           &kp Z                      &kp X                  &hr_mod LEFT_GUI C             &hr_mod LEFT_GUI V              &hr_mod LEFT_GUI B     &kp C_MUTE         &none         &kp N                      &kp M                       &autoshift LESS_THAN COMMA  &autoshift DOT DOT              &autoshift QUESTION SLASH        &kp ENTER
-                                               &mt LEFT_ALT GRAVE     &mt LEFT_GUI F18               &kp SPACE                       &lt 1 SPACE            &lt 3 BACKSPACE    &lt 2 DELETE  &lt 2 SPACE                &kp SPACE                   &mt PIPE NON_US_BACKSLASH   &mt PLUS EQUAL
+                                               &mt LEFT_ALT GRAVE     &mt LEFT_GUI F18               &kp SPACE                       &lt 1 SPACE            &lt 3 BACKSPACE    &lt 2 DELETE  &lt 2 SPACE                &kp SPACE                   &mt PIPE BACKSLASH          &mt PLUS EQUAL
             >;
         };
 
